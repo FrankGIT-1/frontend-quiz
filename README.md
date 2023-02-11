@@ -8,6 +8,6 @@ De opdracht voor Frontend Development in leerjaar 1 was om aan de van HTML/CSS/J
 ## Previews
 
 ![img1](https://github.com/FrankGIT-1/frontend-quiz/blob/main/documentation/ontwerp1.jpg)
+![img4](https://github.com/FrankGIT-1/frontend-quiz/blob/main/documentation/ontwerp4.jpg)
 ![img2](https://github.com/FrankGIT-1/frontend-quiz/blob/main/documentation/ontwerp2.jpg)
 ![img3](https://github.com/FrankGIT-1/frontend-quiz/blob/main/documentation/ontwerp3.jpg)
-![img4](https://github.com/FrankGIT-1/frontend-quiz/blob/main/documentation/ontwerp4.jpg)
