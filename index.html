@@ -1,0 +1,74 @@
+<!-- In dit bestand staat de HTML-code voor je Quiz. Je kunt deze code aanpassen. -->
+
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Frontend Development Quiz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Frontend Webdevelopment Quiz</h1>
+        </header>
+        <main>
+            <div class="page" id="page-start">
+                <h2>Quiz uitleg</h2>
+                <p> Dit is een quiz die bestaat uit meerdere vragen. Deze vragen testen je bekwaamheid over het vak
+                    <br>Frontend Webdevelopment dit bevat de volgende concepten: HTML, CSS en Javascript.
+                    <br> Deze quiz kan tussen de 5 en 15 minuten duren.
+                </p>
+                <ul>
+                    <li>De quiz bestaat uit 10 vragen</li>
+                    <li>De quiz duurt tussen de 5 en 15 minuten</li>
+                    <li>Om de quiz te starten druk op de <b>vragen</b> knop</li>
+                </ul>
+                <button id="button-questions">Vragen</button>
+            </div>
+            <div class="page" id="page-questions">
+                <h1>Vragen</h1>
+                <p id="vraag"></p>
+                <p id="stopwatch"></p>
+                <p id="text"></p>
+                <p id="score"></p>
+                <p id="student-id"></p>
+                <br>
+                <button id="antwoordknop1" class="buttonqa"></button>
+                <button id="antwoordknop2" class="buttonqa"></button>
+                <button id="antwoordknop3" class="buttonqa"></button>
+                <button id="antwoordknop4" class="buttonqa"></button>
+                <button id="volgendevraagknop" class="buttoninlog">Volgende</button>
+                <button id="vorigevraagknop" class="buttoninlog">Vorige</button>
+
+            </div>
+            <div class="page" id="laastste-pagina">
+                <h2>Einde van de Quiz</h2>
+                <p id="eindscore"></p>
+                <p id="stopwatcheind"></p>
+                <p id="score-feedback"></p>
+                <p><strong>Hierbij is de Quiz afgelopen, hopelijk heb je genoten en heb je wat geleerd. Druk op de start
+                        knop om terug naar de startpagina te gaan.</strong></p>
+                <button id="button-start">Start</button>
+                <button id="redditknop" class="buttoninlog">Deel met Reddit</button>
+            </div>
+            <div class="page" id="login-pagina">
+                <h2>Voordat je de Quiz doet, moet je inloggen.</h2>
+                <input type="text" id="login-input" placeholder="inlog gegevens">
+                <button id="button-login" class="buttoninlog">inloggen</button>
+                <p id="text-input"></p>
+            </div>
+        </main>
+    </div>
+    <a class="documentation-link" href="documentation/">
+        Bekijk hier mijn documentatie
+    </a>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>

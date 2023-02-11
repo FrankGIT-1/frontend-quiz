@@ -1,0 +1,154 @@
+/* Plaats je CSS-code in dit bestand */
+
+header {
+    grid-area: header;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:black;
+    text-align: center;
+}
+
+Body {
+    background-color:bisque;
+    
+}
+
+/* nav {
+    grid-area: nav;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    text-align: center;
+  
+} */
+
+main {
+    text-align: center;
+    grid-area: main;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:black;
+  
+}
+
+.grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+        'header header'
+        'main main';
+    grid-gap: 10px;
+    padding: 10px;
+    
+}
+
+button {
+    margin: 5%;
+    margin-left: 25%;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: unset;
+    background-color: bisque;
+    display: block;
+    border: 2px solid; }
+
+button:hover {
+    background-color: lightgreen;
+    border: 2px solid;
+    
+
+}
+
+.buttonqa {
+    margin: unset;
+    margin: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: unset;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: unset;
+    background-color: bisque;
+    float: unset;
+    display: block;
+    border: 2px solid; }
+
+    
+
+.buttonqa:hover {
+        background-color: violet;
+        border: 2px solid; }
+
+.buttoninlog {
+    margin: unset;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: unset;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: unset;
+    background-color: bisque;
+    float: unset;
+    display: block;
+    border: 2px solid; }
+    
+
+.buttoninlog:hover {
+    background-color: lightskyblue;
+    border: 2px solid;
+}
+
+
+
+.testscript {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.testscript th,
+.testscript td {
+    border: 1px solid #000000;
+    vertical-align: top;
+    padding: 5px 10px 5px 10px;
+}
+
+.testscript ul {
+    margin: 0;
+}
+
+.testscript li,
+.testscript span {
+    margin: 8px 0;
+}
+
+.testscript span {
+    display: block;
+    margin: 8px 0;
+}
+
+.documentation-link {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
